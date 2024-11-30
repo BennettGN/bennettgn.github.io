@@ -22,8 +22,8 @@ title: Bennett Godinho-Nelson
 email: bennettgodinhonelson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is Bennett Godinho-Nelson's professional website. It is created with jekyll and cvless Ruby gems. Enjoy!
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bennettgn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  BennettGN
 
 # site settings
