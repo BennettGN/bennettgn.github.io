@@ -69,6 +69,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - cvless
 
 sass:
   sourcemap: never
