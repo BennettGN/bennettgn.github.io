@@ -1,0 +1,39 @@
+<div class="contact">
+  <hr>
+  <h1>Education</h1>
+  <ul>
+    <li>
+      <h2>The Ohio State University</h2>
+      <ul>
+        <li>M.S. in Computer Science & Engineering</li>
+        <li>
+          <span class="li-icon">{% include svg/gradcap.svg %}</span>
+          <span>Expected Graduation: {{ site.stats.grad-graduation }}</span>
+        </li>
+        <li><span>GPA: {{ site.stats.grad-gpa }}</span></li>
+      </ul>
+      <hr>
+      <ul>
+        <li>B.S. in Computer Science & Engineering</li>
+        <li>Software Engineering Specialization, Minor Mathematics</li>
+        <li>
+          <span class="li-icon">{% include svg/gradcap.svg %}</span>
+          <span>Expected Graduation: {{ site.stats.undergrad-graduation }}</span>
+        </li>
+        <li><span>GPA: {{ site.stats.undergrad-gpa }}</span></li>
+      </ul>
+    </li>
+    <hr>
+    <li>
+      <h2>Clarkstate College</h2>
+      <ul>
+        <li>Associate of Science</li>
+        <li>
+          <span class="li-icon">{% include svg/gradcap.svg %}</span>
+          <span>Graduation: {{site.stats.clarkstate-grad}}</span>
+          <li></li><span>GPA: {{site.stats.clarkstate-gpa}}</span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

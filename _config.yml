@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Bennett Godinho-Nelson
+email: bennettgodinhonelson@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is Bennett Godinho-Nelson's professional website. It is created with jekyll and cvless Ruby gems. Enjoy!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  BennettGN
+
+# site settings
+taglong: Software Engineer
+tagshort: Software Engineer
+
+# Build settings
+theme: cvless
+  
+# author settings
+author:
+  name: Bennett Godinho-Nelson
+  email: bennettgodinhonelson@gmail.com
+photo: assets/files/godinho.jpg
+address: Columbus, OH
+phone: +1 937 794 2186
+
+#Stats
+stats:
+  undergrad-graduation: May 2025
+  undergrad-gpa: 3.71
+  grad-graduation: May 2026
+  grad-gpa: 4.0
+  clarkstate-grad: May 2022
+  clarkstate-gpa: 3.96
+# social media links
+social:
+  linkedin: bennett-godinho-nelson-013656247
+  github: BennettGN
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+  - docker-compose.yml
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+
+pagination:
+  enabled: true
