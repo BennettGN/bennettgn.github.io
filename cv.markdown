@@ -5,7 +5,7 @@ permalink: /cv
 ---
 
 # Resume
-
+___
 {% include contact.html %}
 
 {% include education.html %}
