@@ -1,0 +1,31 @@
+.obfuscated-field {
+    width: fit-content;
+    user-select: none;
+    background: none;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.letter.obfuscated {
+    font-family: "SGA", monospace;
+    filter: blur(3px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.letter.revealed {
+    color: var(--active-color, #000);
+    transition: color 0s ease-in-out;
+}
+
+.letter {
+    display: inline-block;
+    text-align: center;
+    transition: 0.1s all;
+}
+
+.obfuscated-field a {
+    color: inherit;
+    text-decoration: none;
+}
+
