@@ -2,7 +2,6 @@
     width: fit-content;
     user-select: none;
     background: none;
-    color: black;
     display: inline-block;
     cursor: pointer;
 }
@@ -14,7 +13,6 @@
 }
 
 .letter.revealed {
-    color: var(--active-color, #000);
     transition: color 0s ease-in-out;
 }
 
