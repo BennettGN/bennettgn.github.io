@@ -9,3 +9,7 @@
 - Index
 - CV
 - Posts
+
+## Credits
+AlexG : obfuscation.js , obfuscation.css
+Seen on https://gulko.net/
