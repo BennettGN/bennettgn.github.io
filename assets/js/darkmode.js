@@ -22,14 +22,12 @@ function updateNavBar(icon) {
     navBar.style.border = "0.1em solid white";
     Array.from(icons).forEach((icon) => {
       const path = icon.querySelector("path");
-      // path.setAttribute("stroke", "black"); 
       path.setAttribute("fill","white");
     });
   } else {
     navBar.style.border = "0.1em solid black";
     Array.from(icons).forEach((icon) => {
       const path = icon.querySelector("path");
-      // path.setAttribute("stroke","black");
       path.setAttribute("fill","black");
     });
   }

@@ -52,8 +52,8 @@
   .nowrap {
     white-space: nowrap;
   }
-  
-  #github-nav.particles-icon a{
+
+  #github-nav {
     text-decoration: none;
     color: var(--nav-color-link);
   
@@ -63,7 +63,6 @@
       color: var(--nav-color-link);
     }
   }
-
   #github-nav.particles-icon svg circle,
   #github-nav.particles-icon svg path {
         stroke: var(--nav-color);
