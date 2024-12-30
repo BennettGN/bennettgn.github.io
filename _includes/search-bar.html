@@ -1,0 +1,64 @@
+<dialog id="command-dialog" class="disappear">
+    <form id="search-form" action="/search" method="get">
+      <input
+        type="text"
+        name="q"
+        placeholder="Search..."
+        style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 0.5rem;"
+      />
+      <button type="submit" style="margin-top: 1rem; padding: 0.5rem 1rem; border: none; background-color: #0073e6; color: white; border-radius: 0.5rem;">Search</button>
+    </form>
+  </dialog>
+  
+  <button id="open-search-button" class="icon" title="Search" style="background: none; border: none; cursor: pointer;">
+    🔍 <!-- Replace with your preferred icon -->
+  </button>
+  
+  <script>
+    const commandDialog = document.getElementById('command-dialog');
+    const openSearchButton = document.getElementById('open-search-button');
+  
+    openSearchButton.addEventListener('click', () => {
+      commandDialog.showModal();
+      commandDialog.classList.remove('disappear');
+    });
+  
+    commandDialog.addEventListener('click', (e) => {
+      if (e.target === commandDialog) {
+        commandDialog.classList.add('disappear');
+        setTimeout(() => {
+          commandDialog.close();
+        }, 100);
+      }
+    });
+  </script>
+  
+  <style>
+    #command-dialog {
+      border: none;
+      border-radius: 1rem;
+      width: 70%;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: 0.1s all;
+    }
+  
+    #command-dialog.disappear {
+      filter: blur(30px);
+    }
+  
+    @media (max-width: 800px) {
+      #command-dialog {
+        width: 90%;
+        height: auto;
+      }
+    }
+  
+    .icon {
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  

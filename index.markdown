@@ -3,6 +3,7 @@ layout: home
 title: Home
 ---
 ___
+{% include header.html %}
 # About
 
 Hi! I'm Bennett Godinho-Nelson, a Software Engineer and full-time student at The Ohio State University. I'm currently pursuing a B.S./M.S. in Computer Science & Engineering, with an expected graduation date of May 2026. I graduated in May 2022 with my Associate's of Science Degree alongside my highschool graduation.
@@ -20,5 +21,4 @@ Feel free to check out my LinkedIn and Resume with the icons above or some of th
 ___
 
 ## Previous Posts
-
 {% include archive.html %}

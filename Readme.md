@@ -9,3 +9,6 @@
 - Index
 - CV
 - Posts
+
+## Execution Instructions
+- Local : bundle exec jekyll serve
