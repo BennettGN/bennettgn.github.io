@@ -15,15 +15,17 @@ svg path {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: var(--color-link);
-
-  &:focus,
-  &:hover {
-    border-bottom: calc(var(--type-size) / 10) dotted var(--color-link);
-    color: var(--color-link);
-  }
+  transition: transform 0.2s ease;
 }
+
+a:hover,a:focus {
+  transform: scale(1.05);
+  color: var(--color-link);
+}
+
 
 header {
   display: flex;
