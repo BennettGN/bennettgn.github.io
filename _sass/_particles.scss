@@ -148,7 +148,9 @@ transform: scale(1.1); /* Slightly enlarge the link on hover */
 
 nav {
   background-color: #ffffff1e;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); 
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 2rem;
   padding: 0.5rem;
   width: fit-content;
