@@ -12,3 +12,7 @@
 
 ## Execution Instructions
 - Local : bundle exec jekyll serve
+
+## Credits
+AlexG : obfuscation.js , obfuscation.css
+Seen on https://gulko.net/
