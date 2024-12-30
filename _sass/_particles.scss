@@ -111,7 +111,14 @@
 }
 
 #header {
-  display: none; /* Initially hidden */
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#header.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .nav-links {

@@ -28,16 +28,16 @@
     window.addEventListener("scroll", function() {
       const header = document.getElementById("header");
       if (window.scrollY >= 700) {
-        header.style.display = "block"; // Show the header
+        header.classList.add("visible"); // Show the header
       } else {
-        header.style.display = "none"; // Hide the header
+        header.classList.remove("visible"); // Hide the header
       }
     });
   </script>
   {% else %}
   <div></div>
   <script>
-    document.getElementById("header").style.display = "block";
+    document.getElementById("header").classList.add("visible");
     document.body.style.paddingTop = "5em";
   </script>
   {% endif %}
