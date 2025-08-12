@@ -74,3 +74,17 @@ img {
 table.table {
   color: var(--color-text);
 }
+
+.biz-icon {
+  display: inline-block;
+  height: 1.2em;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+.biz-icon svg {
+  height: 100%;
+  width: auto;
+  fill: currentColor;
+}
